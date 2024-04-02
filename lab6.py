@@ -1,5 +1,5 @@
 import math
-
+sum= 0.0
 n=int(input("enter n"))
 x=int(input("enter x"))
 
@@ -25,7 +25,7 @@ print(double)
 
 n=int(input("enter n:"))
 def func(n):
-    sum=0.0
+    global sum=0.0
     for k in range (1,n+1):
         sum+= pow(-1,k+1)/k
 
